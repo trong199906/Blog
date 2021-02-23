@@ -1,5 +1,5 @@
 <!Doctype html>
-<% load static %}
+{% load static %}
 <html>
 <head>
     <title> Blog  </title>
@@ -11,8 +11,9 @@
     <meta name="description" content="Blog Template">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
     <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
-<!--    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK" crossorigin="anonymous"></script>-->
     <link id="theme-style" rel="stylesheet" href="{% static 'assets/css/theme-1.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+
     {% block css %}
 
     {% endblock css %}
